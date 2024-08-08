@@ -31,7 +31,7 @@ if __name__ == '__main__':
     listing_checker.initialize()
 
     # load telegram token from config
-    cfg = ConfigManager("../config/config.yaml")
+    cfg = ConfigManager("./config/config.yaml")
 
     token = cfg.telegram_config.token
 
